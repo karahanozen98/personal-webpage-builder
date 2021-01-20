@@ -1,33 +1,8 @@
 * {
   margin: 0;
-
-}
-.app-home {
-  word-wrap: break-word;
-  height: 100vh;
-  overflow: hidden;
-}
-.app-home > img {
-  width: 100%;
-  opacity: 6;
-  filter: brightness(50%);
 }
 
-.app-home-header {
-  display: inline;
-  position: absolute;
-  color: white;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.app-home-header > h1 {
-  font-size: 2em;
-  color: "white";
-}
-.app-home-skills{
-    background-color: rgb(0, 77, 128);
-}
+.app {
 
+}
 

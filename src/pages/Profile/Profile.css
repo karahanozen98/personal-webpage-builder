@@ -1,0 +1,58 @@
+.profile{
+    background-image: url("../../static/assets/hb.jpg");
+    word-wrap: break-word;
+    height: 100vh;
+    text-align: center;
+}
+
+.profile-header{
+    color:white;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,50%);
+}
+
+.profile-introduction{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: space-around;
+    
+}
+.profile-contact,.profile-details{
+    margin:30% 0px;
+}
+
+
+@media (max-width:1400px){
+
+    .profile-introduction{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-around;
+        
+    }
+}
+
+@media (max-width:900px){
+
+    .profile-header{
+        font-size: 1.3rem;
+    }
+
+    .profile-introduction{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    .profile-details{
+        order: 1;
+        width: 85%;
+        margin: 25% 0;
+    }
+    .profile-contact{
+        order: 2;
+        width: 85%;
+        margin: 0;
+    }
+}
