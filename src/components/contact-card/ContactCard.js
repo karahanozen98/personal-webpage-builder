@@ -1,4 +1,5 @@
 import React from "react";
+import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -12,7 +13,11 @@ function ContactCard({ user }) {
       </div>
       <ul className="profile-card-contacts">
         <li>
-          <MailIcon />
+         
+          <p> <PhoneIcon/>{"Phone: " + user.contact.phone}</p>
+        </li>
+        <li>
+          <MailIcon/>
           {"Email: "}
           <a
             rel="noreferrer"
@@ -30,17 +35,17 @@ function ContactCard({ user }) {
           </a>
         </li>
         <li>
-          <TwitterIcon />
-          {"Twitter: "}
-          <a rel="noreferrer" target="_blank" href={user.contact.github}>
-            {user.contact.github}
-          </a>
-        </li>
-        <li>
           <FacebookIcon />
           {"Facebook: "}
           <a rel="noreferrer" target="_blank" href={user.contact.github}>
-            {user.contact.github}
+            {user.contact.facebook}
+          </a>
+        </li>
+        <li>
+          <TwitterIcon />
+          {"Twitter: "}
+          <a rel="noreferrer" target="_blank" href={user.contact.github}>
+            {user.contact.twitter}
           </a>
         </li>
       </ul>

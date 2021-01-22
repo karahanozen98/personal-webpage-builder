@@ -9,28 +9,26 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   return (
-    <div className="header">
-      <div className="logo-nav">
-        <div className="header-top">
-          <a href="/">
-            <h1>Personal Webpage</h1>
-          </a>
-        </div>
-        <ul className={click ? "nav-options active" : "nav-options"}>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="/">HOME</a>
-          </li>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="/account">ACCOUNT</a>
-          </li>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="/signin">SIGN-IN</a>
-          </li>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="/signup">SIGN-UP</a>
-          </li>
-        </ul>
+    <div className="navbar">
+      <div className="navbar-left">
+        <a href="/">
+          <h1>Personal Webpage</h1>
+        </a>
       </div>
+      <ul className={click ? "nav-options active" : "nav-options"}>
+        <li className="option" onClick={closeMobileMenu}>
+          <a href="#profile-introduction">ABOUT ME</a>
+        </li>
+        <li className="option" onClick={closeMobileMenu}>
+          <a href="#profile-skills">SKILLS</a>
+        </li>
+        <li className="option" onClick={closeMobileMenu}>
+          <a href="/signin">SIGN-IN</a>
+        </li>
+        <li className="option" onClick={closeMobileMenu}>
+          <a href="/signup">SIGN-UP</a>
+        </li>
+      </ul>
 
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (
@@ -43,7 +41,7 @@ function Navbar() {
           </div>
         )}
       </div>
-    </div>
+      </div>
   );
 }
 

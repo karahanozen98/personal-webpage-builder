@@ -1,27 +1,24 @@
-.header {
+.navbar {
   /*main view: Desktop*/
+  position: fixed;
   display: flex;
   background-color: rgb(255, 255, 255);
   border-bottom: 2px solid lightgray;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 40px;
-  height: 80px;
-}
-.logo-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 3;
 }
 
-.header-top{
-    display: flex;
+
+
+.navbar-left a h1 {
+  color:black;
 }
-.header-top > img {
-    margin:auto;
-    margin-right: 10px;
-}
-.header-top > a {
+
+.navbar-left > a {
   font-weight: 900;
   color: rgb(3, 13, 42);
 }
@@ -43,6 +40,7 @@
 
 .option > a {
   color: black;
+  margin: 0px 5px;
   padding: 20px;
 }
 
@@ -65,13 +63,7 @@
   /*Mobile View */
   .menu-icon {
     display: block;
-  }
-  .header {
-    padding: 0px 10px;
-  }
-  .logo {
-    width: 45px;
-    height: 45px;
+    margin-right: 20px;
   }
   .nav-options {
     display: flex;
@@ -92,22 +84,19 @@
     transition: all 0.5s ease;
     z-index: 1;
     align-content: center;
-    padding-left: 0px;
   }
 
   .option {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vw;
-    padding: 30px 0px;
+    margin: 10px;
+    padding: 10px;
   }
   .sign-up {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vw;
-    padding: 30px 0px;
   }
 
   .signin-up {
