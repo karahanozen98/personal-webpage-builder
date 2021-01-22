@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Personal Web Page
+This is a fully responsive personal web page creator.
+This project is unfinished!
+
+
+<img alt="desktop view-1" src="/screenshots/desktopview-1.jpg"></img>
+<img alt="desktop view-2" src="/screenshots/desktopview-2.jpg"></img>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
