@@ -21,7 +21,7 @@ h1{
 
 .profile-introduction {
   display: grid;
-  grid-template-columns: 35% 30%;
+  grid-template-columns: 40% 30%;
   justify-content: space-around;
 }
 .profile-contact,
@@ -49,13 +49,13 @@ h1{
   }
   .profile-details {
     order: 1;
-    width: 95%;
+    width: 100%;
     margin-top: 15%;
     padding: 0;
   }
   .profile-contact {
     order: 2;
-    width: 95%;
+    width: 100%;
     margin: 0;
     padding: 0;
   }

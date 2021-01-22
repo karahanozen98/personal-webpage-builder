@@ -23,10 +23,10 @@ function Navbar() {
           <a href="#profile-skills">SKILLS</a>
         </li>
         <li className="option" onClick={closeMobileMenu}>
-          <a href="/signin">SIGN-IN</a>
+          <a href="/">SIGN-IN</a>
         </li>
         <li className="option" onClick={closeMobileMenu}>
-          <a href="/signup">SIGN-UP</a>
+          <a href="/">SIGN-UP</a>
         </li>
       </ul>
 

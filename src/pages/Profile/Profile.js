@@ -16,7 +16,7 @@ function Profile() {
           github: "https://github.com/karahanozen98",
           twitter: "",
           facebook: "",
-          linkedin: "",
+          linkedin: "https://www.linkedin.com/in/karahan-%C3%B6zen-7404531a3/",
         },
         skills: [
           { name: "Javascript", years:3, level: 95 },
@@ -26,8 +26,6 @@ function Profile() {
           { name: "Jquery", years:0, level: 50 },
           { name: "Firebase", years:1, level: 60 },
           { name: "MongoDB", years:0, level: 30 },
-          { name: "NodeJS", years:0, level: 30 },
-          { name: "ExpressJS", years:0, level: 30 },
         ],
       };
 
